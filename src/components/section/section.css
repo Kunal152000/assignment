@@ -1,0 +1,53 @@
+.section
+{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 212, 246);
+}
+.section-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+.sm-icon
+{
+    font-size: 0.7rem;
+    margin-left: 80rem;
+    font-weight: bold;
+    color: blue;
+}
+
+
+.images
+{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image
+{
+    margin: 0rem 1.8rem;
+    margin-top: 1.8rem;
+    position: relative;
+    filter: brightness(80%);
+}
+.image  img
+{
+    border-radius: 5px;
+}
+ .section-para{
+    position: absolute;
+    bottom: 1rem;
+    color: var(--text);
+    margin-left: 1rem;
+    font-weight: bold;
+}
